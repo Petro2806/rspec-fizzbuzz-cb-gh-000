@@ -1,9 +1,9 @@
-def fizzbuzz(n)
-if n%15==0
+def fizzbuzz(int)
+if int%15==0
   "FizzBuzz"
-elsif n%5==0
+elsif int%5==0
   "Buzz"
-elsif n%3==0
+elsif int%3==0
   "Fizz"
 else
   return nil
