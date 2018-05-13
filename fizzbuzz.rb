@@ -7,6 +7,4 @@ elsif (n%3==0)
   return "fizz"
 else
   return nil
-  
-  
 end
